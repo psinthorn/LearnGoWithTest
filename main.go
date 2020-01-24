@@ -6,6 +6,6 @@ func main() {
 	fmt.Println("Hello golang")
 }
 
-func Hello() string {
-	return "Hello go"
+func Main() string {
+	return "This is main test"
 }

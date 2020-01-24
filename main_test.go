@@ -2,10 +2,10 @@ package main
 
 import "testing"
 
-func TestHello(t *testing.T) {
-	want := "Hello go"
+func TestMain(t *testing.T) {
+	want := "This is main test"
 
-	if got := Hello(); got != want {
+	if got := Main(); got != want {
 		t.Errorf("Got %q want %q", got, want)
 	}
 }
